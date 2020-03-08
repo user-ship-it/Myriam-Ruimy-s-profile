@@ -1,0 +1,118 @@
+body{
+	background: url(https://pixabay.com/get/52e3dd454f52a914f6d1867dda6d49214b6ac3e45659724e752e7cd490/sunflower-4386505_1920.jpg);
+	color:#909090;
+	font-size: 17px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+h1,h2,h3{
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+	line-height: 1.6;
+}
+
+h1{
+	color: #439671;
+	font-size: 32px;
+	font-weight: 900;
+}
+
+h2{
+	color: #7AAD9A;
+	font-size: 20px;
+	font-weight:700;
+}
+
+h3{
+	font-weight: lighter;
+}
+
+a{
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	color: #9A4E49;
+	transition: color 0.9s ease;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+a:hover{
+	color: #F0BC67;
+}
+
+/*custom design with class I AM SO LATE*/
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white{
+	background-color: rgb(240,240,240);
+	padding: 40px;
+	box-shadow: 10px 10px 30px rgba(0,0,0,0.3);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.shadowed {
+	box-shadow: 0px 0px 10px ;
+}
+
+.btn-blue{
+	background-color: #9A4E49;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: #F0BC67;
+	color: #9A4E49;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 40px;
+	color: #9A4E49;
+}
+
+.list-inline i:hover{
+	font-size: 50px;
+	color: #F0BC67; 
+}
+
+#introduction p {
+	margin-bottom: 30px;
+}
+
+
+
